@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="module" version="1.5.0">
+	<!-- Name of the Module -->
+	<name>Modulo Inserimento Ore Progetti - Gestionale Presenze</name>
+
+	<!-- Name of the Author -->
+	<author>CNR ITD PALERMO</author>
+
+	<!-- Version Date of the Module -->
+	<creationDate>12 Novembre 2012</creationDate>
+
+	<!-- Copyright information -->
+	<copyright>All rights reserved by CNR ITD PALERMO 2011.</copyright>
+
+	<!-- License Information -->
+	<license>GPL 2.0</license>
+
+	<!-- Author's email address -->
+	<authorEmail>giovanni.todaro@itd.cnr.it</authorEmail>
+
+	<!-- Author's website -->
+	<authorUrl>www.pa.itd.cnr.it/todaro</authorUrl>
+
+	<!-- Module version number -->
+	<version>1.0</version>
+
+	<!-- Description of what the module does -->
+	<description>
+		Permette di caricare ore jdi progetto contestuali al dipendente e al giorno selezionato in calendario.
+	</description>
+
+	<!-- Listing of all files that should be installed for the module to function -->
+	<files>
+		<!-- The "module" attribute signifies that this is the main controller file -->
+		<filename module="mod_presenze_assenze_orarie">
+			mod_presenze_progetti.php
+		</filename>
+		<filename>index.html</filename>
+	</files>
+
+</install>
